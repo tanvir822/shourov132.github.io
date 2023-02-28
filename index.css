@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.list {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.list {
+    margin: 0;
+    padding: 0;
+   
+    display: inline-block;
+}
+ ul {
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+
+   
+    
+
+}
+.ul-list{
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.details{
+    display: flex;
+    margin-top: 50px;
+}
+.about-me{
+    font-size: 30px;
+}
+.student{
+    font-size: 20px;
+}
+.btn a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+    margin-top: 50px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2 {
+    margin-top: 0;
+}
+img {
+    display: block;
+    width: 400px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.form-section{
+      text-align: center;
+}
+.input-field{
+    width: 350px;
+    height: 20px;
+}
+#message{
+    height: 80px;
+    margin-left: 45px;
+}
