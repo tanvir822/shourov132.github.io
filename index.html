@@ -1,64 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal portfolio</title>
-    <script src="https://kit.fontawesome.com/6cf74677e2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/dp.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+	<title>My Simple Website</title>
+	<link rel="stylesheet" href="./index.css">
+	
+</head>
 <body>
-    <header class="header">
-<nav>
-    <h2 class="nav-title">S<span class="text-primary">T</span>A</h2>
-    <ul>
-        <li>Home</li>
-        <li>contact</li>
-        <li><button class="button-primary">picture</button></li>
-    </ul>
-</nav>
-    <!--header banner-->
-    <div class="banner">
-        <div>
-            <h3 class="banner-sub-title">Hi, I am</h3>
-            <h1 class="banner-title">Tanvir Ahmed</h1>
-            <p class="banner-description">A Bachelor of Electronics & Communication Engineering (ECE) at Hajee Mohammad Danesh Science & Technology University,Dinajpur.</p>
-            <div class="button-header">
-            <button class="button-primary"><i class="fa-solid fa-download"></i> Download CV</button>
-            <button class="call-me"><i class="fa-solid fa-phone"></i> Contact</button>
-            </div>
-        </div>
-<img src="tanvir.png" alt="">
-    </div>
-    </header>
-    <main>
-        <section class="about">
-            <h3 class="section-title">About Me</h3>
-            <p class="section-description"> I am an undergraduate student of Electronics and Communication Engineering (ECE) department at Hajee Mohammad Danesh Science & Technology University,Dinajpur. I always try to passonate about my study and work. </p>
-            <div class="about-info-container">
-               <div class="about-info">
-                <p class="info-title">Name:</p>
-                <p class="info-description">Tanvir Ahmed</p>
-               </div>
-               <div class="about-info">
-                <p class="info-title">Email:</p>
-                <p class="info-description">Tanvirshourov822@gmail.com</p>
-               </div>
-               <div class="about-info">
-                <p class="info-title">Date of Birth:</p>
-                <p class="info-description">25 march,1997</p>
-               </div>
-               <div class="about-info">
-                <p class="info-title">From:</p>
-                <p class="info-description">Panchbibi,  Joypurhat</p>
-               </div>
-                </section>
-          
-               
-    </main>
-</body>
-</html>
+	<header class="header">
+		<div class="welcome">
+			<h1>Welcome to my website</h1>
+		</div>
+        <div class="ul-list">
+			<ul>
+				<div class="btn"><li><a href="#about">About</a></li></div>
+				
+				<div class="btn"><li><a href="#education">Education</a></li></div>
+				
+				<div class="btn"><li><a href="#contact">Contact</a></li></div>
+				
+			</ul>
+		</div>
+	</header>
+	<main>
+		<section class="details" id="about">
+			<div>
+				<h1 class="about-me">About Me</h1>
+			<p class="student">I am an undergraduate student of Electronics and Communication Engineering (ECE) department at Hajee Mohammad Danesh Science & Technology University,Dinajpur. I always try to passonate about my study and work.</p>
+			</div>
+			<div>
+				<img class="tanvir-image" src="tanvir.png" alt="Placeholder image">
+			</div>
+		</section>
+		<section id="services">
+			<h2>My Educational Qualification</h2>
+			   <p>BSc(Engg.) in ECE</p>
+		</section>
+		<section class="form-section" id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input class="input-field" type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input class="input-field" type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label><br>
+				<textarea class="input-field" id="message" name="message" rows="5" cols="30"></textarea><br><br>
+				<input  type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My 
+
 
 
 
